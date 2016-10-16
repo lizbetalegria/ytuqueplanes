@@ -1,5 +1,83 @@
+.banner{
+	background: url("img/fondo-portada.jpg") no-repeat center center;
+	height: 500px;
+	padding-top: 80px;
+	padding-left: 70px;
+}
 .seguridad{
 	/* la propiedad background permite colocar un color o imagen de fondo */
 	background: url("img/viaje-seguro.jpg") no-repeat center center;
 	height: 300px;
+}
+.final{
+	background: url("img/bg_footer.png") no-repeat center center;
+	height: 500px;
+	padding-top: 80px;
+	padding-left: 70px;
+}
+.titulo-blanco{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+.parrafo-blanco{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: justify;
+	line-height: 24px;
+}
+.bordes-img{
+	border: #0080FF 8PX double;
+	padding: 2px;
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.parrafo{
+	color: #6E6E6E;
+	text-align: center;
+	font-weight: bold;
+	line-height: 24px;
+}
+.titulo{
+	color: #FF0000;
+	text-align: center;
+	font-weight: bold;
+	font-family: cursive;
+	margin-bottom: 20px;
+}
+.visita{
+	  text-shadow: 3px 3px 5px #f00,
+               6px 6px 5px #0f0,
+               9px 9px 5px #00f;
+}
+.globo{
+	width: 30px;
+	height: 70px;
+}
+.contorno-menu{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+.redes-sociales{
+	text-align: right;
+	padding: 10px;
+}
+.menu-c{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.menu{
+	list-style: none;
+	text-align: center;
+}
+.iconos{
+text-shadow:
+9px 2px 0 rgba(0, 255, 255, 0.5),
+-6px -1px 1px rgba(255, 0, 0, 0.4);
+color: #2A0A12;
+font-size: 80px;
+font-family: 'Special Elite', cursive;
+text-align: center;
 }

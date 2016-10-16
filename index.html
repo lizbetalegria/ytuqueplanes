@@ -9,6 +9,7 @@
 
     <!-- Colocar los estilos del Bootstrap y el style.css -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,87 +22,86 @@
 
     <div class="page">
       <div class="container">
+            <div class="redes-sociales">
+            <img src="img/facebook.png">
+            <img src="img/twitter.png">
+            <img src="img/youtube.png">
+          </div>
         <header class="cabecera">
         	<div class="logotipo">
         		<img src="img/logo.png">
-        	</div>
-        	<div class="redes-sociales">
-        		<img src="img/facebook.png">
-        		<img src="img/youtube.png">
         	</div>
         </header>
         <nav class="contorno-menu">
           <ul class="menu">
             <li>
-              <a href="#">Inicio</a>
-            </li>
-            <li>
-              <a href="#">¿A donde viajar?</a>
-            </li>
-            <li>
-              <a href="#">Promociones</a>
-            </li>
-            <li>
-              <a href="#">Galeria</a>
-            </li>
-            <li>
-              <a href="#">Seguros de viaje</a>
-            </li>
-            <li>
-              <a href="#">Contactenos</a>
+              <a class="menu-c" href="#">Inicio  </a>
+            
+              <a class="menu-c" href="#">¿A donde viajar?  </a>
+            
+              <a class="menu-c" href="#">Promociones  </a>
+            
+              <a class="menu-c" href="#">Galeria  </a>
+           
+              <a class="menu-c" href="#">Seguros de viaje  </a>
+          
+              <a class="menu-c" href="#">Contactenos  </a>
             </li>
           </ul>
         </nav>
         <div class="contenido">
           <div class="banner">
-            <h1>¡Visita Kuélap!</h1>
-            <h4>Chachapoyas esta más cerca de ti</h4>
+            <h1 class="visita" >¡Visita Kuélap!</h1>
+            <h2 class="visita" >Chachapoyas esta más cerca de ti</h2>
           </div>
           <div class="bienvenida">
-            <h2>Descubre Amazonas</h2>
-            <p>Bosques de neblina y páramos con privilegiados microclimas te dan la bienvenida a un departamento donde la historia y la naturaleza están en su máxima expresión. Descubre en Amazonas imponentes paisajes, una flora y fauna envidiable y encuentra en cada una de sus estructuras arquitectónicas, como la enigmática ciudadela de Kuélap, y sus misteriosas tumbas y sarcófagos, un relato diferente. Te invitamos a vivir esta experiencia.</p>
+            <h2 class="titulo" >Descubre Amazonas</h2>
+            <p class="parrafo" >Bosques de neblina y páramos con privilegiados microclimas te dan la bienvenida a un departamento donde la historia y la naturaleza están en su máxima expresión. Descubre en Amazonas imponentes paisajes, una flora y fauna envidiable y encuentra en cada una de sus estructuras arquitectónicas, como la enigmática ciudadela de Kuélap, y sus misteriosas tumbas y sarcófagos, un relato diferente. Te invitamos a vivir esta experiencia.</p>
           </div>
           <section class="iconos">
           	<div class="row">
 	            <div class="col-md-4">
-	              <!-- Insertar el icono correspondiente y dar formato a su texto dentro de un cuadro de color -->
-	              <h4>Mapas y Guías</h4>        
+	              <img src="img/Map.png">
+	              <h4 >Mapas y Guías</h4>        
 	            </div>
 	            <div class="col-md-4">
+              <img src="img/fotos.png">
 	              <h4>Galería turistica</h4>
 	            </div>
-	            <div class="cold-md-4">
+	            <div class="col-md-4">
+              <img src="img/folder.png">
 	              <h4>Más información</h4>
 	            </div>
           	</div>
           </section>
-          
           <section class="promociones">
-          		<h4>Promociones insuperables</h4>
-              	<p>El Perú es una gran marca y todos estamos invitados a ser sus embajadores.</p>
+          		<h2 class="titulo">Promociones insuperables</h2>
+                <img src="img/globo-celeste.png" class="globo">
+              	<p class="parrafo">El Perú es una gran marca y todos estamos invitados a ser sus embajadores.</p>
               	<div class="row">
 		            <div class="col-md-4">
-		              <img src="img/banner01.png">
+		              <img src="img/banner01.png" class="bordes-img" >
 		            </div>
 		            <div class="col-md-4"> 
-		              <img src="img/banner02.png">
+		              <img src="img/banner02.png" class="bordes-img">
 		            </div>
 		            <div class="col-md-4">
-		              
-		              
+		              <img src="img/banner03.png" class="bordes-img">
 		            </div>
 	          	</div>
           </section>
+
           <section class="seguridad">
           	<div class="row">
-          		<div class="col-md-12">
-          			<h2>Disfruta de un viaje seguro</h2>
-          			<ul>
+          		<div class="col-md-6">
+          			<h2 class="titulo-blanco">Disfruta de un viaje seguro</h2>
+          			<ul class="parrafo-blanco">
           				<li>Consulta y contrata servicios formales (www.mincetur.gob.pe/peru.travel)</li>
 						<li>Verifica las condiciones del servicio que contratas.</li>
 						<li>En turismo de aventura, verifica que te ofrezcan las medidas de seguridad necesarias.</li>
 						<li>Solo contrata medios de transporte formales.</li>
 						<li>Exige comprobante de pago.</li>
+            <img src="img/logo_footer.png">
           			</ul>
           		</div>
           	</div>
@@ -110,6 +110,7 @@
         </div>
         <footer>
           <div class="row">
+          <div class="final">
             <div class="col-md-3">
               <h5>Informate</h5>
               <ul>
